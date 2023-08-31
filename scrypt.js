@@ -79,8 +79,8 @@ function Play(){
 }
 
 function Sleep(){ // for at dyret skal sove
-    thirst -=20
-    hunger -=20
+    thirst -=20;
+    hunger -=20;
     updateView();
     
 }
